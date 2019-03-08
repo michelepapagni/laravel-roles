@@ -6,6 +6,8 @@
             <div class="col-12">
                 <h1>Categoria: {{ $category->name }}</h1>
 
+                <img src="{{ asset('storage/' . $category->poster) }}" alt="">
+
                 <ul>
                     <li>Id: {{ $category->id }}</li>
                     <li>Name: {{ $category->name }}</li>
